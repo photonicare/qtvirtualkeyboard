@@ -35,6 +35,48 @@ KeyboardLayout {
     keyWeight: 160
     KeyboardRow {
         Key {
+            key: Qt.Key_1
+            text: "1"
+        }
+        Key {
+            key: Qt.Key_2
+            text: "2"
+        }
+        Key {
+            key: Qt.Key_3
+            text: "3"
+        }        
+        Key {
+            key: Qt.Key_4
+            text: "4"
+        }        
+        Key {
+            key: Qt.Key_5
+            text: "5"
+        }        
+        Key {
+            key: Qt.Key_6
+            text: "6"
+        }        
+        Key {
+            key: Qt.Key_7
+            text: "7"
+        }        
+        Key {
+            key: Qt.Key_8
+            text: "8"
+        }        
+        Key {
+            key: Qt.Key_9
+            text: "9"
+        }        
+        Key {
+            key: Qt.Key_0
+            text: "0"
+        }
+    }
+    KeyboardRow {
+        Key {
             key: Qt.Key_Q
             text: "q"
         }
@@ -183,26 +225,12 @@ KeyboardLayout {
         SymbolModeKey {
             weight: 217
         }
-        ChangeLanguageKey {
-            weight: 154
-        }
-        HandwritingModeKey {
-            weight: 154
-        }
         SpaceKey {
             weight: 864
         }
         Key {
             key: Qt.Key_Apostrophe
             text: "'"
-        }
-        Key {
-            key: 0xE000
-            text: ":-)"
-            alternativeKeys: [ ";-)", ":-)", ":-D", ":-(", "<3" ]
-        }
-        HideKeyboardKey {
-            weight: 204
         }
     }
 }
